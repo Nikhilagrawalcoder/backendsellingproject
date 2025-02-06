@@ -21,7 +21,7 @@ app.get("/user/purchase",(req,res)=>{
 })
 
 app.post("/user/purchase",(req,res)=>{
-    res.json({msg:'succesfully purchase course'})
+    res.json({msg:'succesfully purchase courses'})
 })
 app.listen(8080,(err)=>{
     logger.info('server stareted succesfully')
